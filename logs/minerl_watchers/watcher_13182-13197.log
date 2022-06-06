@@ -1,0 +1,9 @@
+2022-06-06 10:11:46 submarine process_watcher[13233] INFO Process watcher started between parent 13182 and child 13197 
+2022-06-06 10:13:07 submarine process_watcher[13233] INFO Parent is not running, hence we need terminate the child.
+2022-06-06 10:13:07 submarine process_watcher[13233] INFO About to reap process tree of 13197:launchClient.sh:/usr/bin/bash i sleeping, owner 1428, printing process tree status in termination order:
+2022-06-06 10:13:07 submarine process_watcher[13233] INFO 	-13202:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 13197
+2022-06-06 10:13:07 submarine process_watcher[13233] INFO 	-13197:launchClient.sh:/usr/bin/bash i sleeping, owner 1428
+2022-06-06 10:13:07 submarine process_watcher[13233] INFO Trying to SIGTERM 13202:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 13197
+2022-06-06 10:13:12 submarine process_watcher[13233] INFO Process 13202 survived SIGTERM; trying SIGKILL on 13202:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 13197
+2022-06-06 10:13:12 submarine process_watcher[13233] INFO Process psutil.Process(pid=13202, name='java', status='terminated', started='10:11:44') terminated with exit code None
+2022-06-06 10:13:12 submarine process_watcher[13233] INFO Process psutil.Process(pid=13197, name='launchClient.sh', status='terminated', started='10:11:44') does not exist or is zombie.

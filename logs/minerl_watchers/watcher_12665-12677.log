@@ -1,0 +1,2 @@
+2022-06-06 10:08:28 submarine process_watcher[12713] INFO Process watcher started between parent 12665 and child 12677 
+2022-06-06 10:09:42 submarine process_watcher[12713] INFO Parent is not running, hence we need terminate the child.

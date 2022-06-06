@@ -1,0 +1,2 @@
+2022-06-06 10:14:28 submarine process_watcher[13911] INFO Process watcher started between parent 13857 and child 13875 
+2022-06-06 10:15:23 submarine process_watcher[13911] INFO Child is not running anymore, launcher can terminate.
